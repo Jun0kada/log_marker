@@ -1,5 +1,7 @@
 # LogMarker
 
+[![Build Status](https://travis-ci.org/Jun0kada/log_marker.svg?branch=master)](https://travis-ci.org/Jun0kada/log_marker)
+
 debug logging with marker
 
 ## Installation
