@@ -124,6 +124,8 @@ pp! ['Hello my debug log'] * 5
 ## Config
 
 ```ruby
+# config/initializers/log_marker.rb
+
 LogMarker.config do |config|
   config.ml_alias = :p!
   config.marker   = -> { (['=' * 150] * 5).join("\n") }
