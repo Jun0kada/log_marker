@@ -37,4 +37,4 @@ module LogMarker
   end
 end
 
-Object.include LogMarker
+Object.send(:include, LogMarker)
